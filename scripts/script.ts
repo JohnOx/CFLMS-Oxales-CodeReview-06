@@ -197,7 +197,7 @@ let rest2 = new Restaurant("BioFrische","Vienna", "Stutterheimstraße 6" ,"1150"
 
 let rest3 = new Restaurant("McDonald's","Vienna", "Supergasse 3" ,"1060", "img/wine.jpg","24.10.2020","12:45","+43(1)5854900","international","http://www.mcdonalds.at/")
 
-let rest4 = new Restaurant("Burger King","Vienna", "Frittenstraße 69" ,"1150", "img/burger.jpg","02.10.2010","17:10","12:45","+43(1) 9529215","fast-food","http://burgerking.com/")
+let rest4 = new Restaurant("Burger King","Vienna", "Frittenstraße 69" ,"1150", "img/burger.jpg","02.10.2010","17:10","+43(1) 9529215","fast-food","http://burgerking.com/")
 
 
 //Object Events

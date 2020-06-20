@@ -79,7 +79,7 @@ var place4 = new Orte("Cancun", "Mexico", "Strada Mexico 5", "MX1130", "img/canc
 var rest1 = new Restaurant("ON Restaurant", "Vienna", "Wehrgasse 8", "1050", "img/chinese.jpg", "24.10.2020", "12:45", "+43(1)5854900", "chinese", "http://www.restaurant-on.at/");
 var rest2 = new Restaurant("BioFrische", "Vienna", "Stutterheimstraße 6", "1150", "img/indian.jpg", "02.10.2010", "17:10", "+43(1) 9529215", "indian", "http://biofrische.wien/");
 var rest3 = new Restaurant("McDonald's", "Vienna", "Supergasse 3", "1060", "img/wine.jpg", "24.10.2020", "12:45", "+43(1)5854900", "international", "http://www.mcdonalds.at/");
-var rest4 = new Restaurant("Burger King", "Vienna", "Frittenstraße 69", "1150", "img/burger.jpg", "02.10.2010", "17:10", "12:45", "+43(1) 9529215", "fast-food", "http://burgerking.com/");
+var rest4 = new Restaurant("Burger King", "Vienna", "Frittenstraße 69", "1150", "img/burger.jpg", "02.10.2010", "17:10", "+43(1) 9529215", "fast-food", "http://burgerking.com/");
 //Object Events
 var event1 = new Events("Ronacher", "Wien", "Seilerstätte 9", "1010", "img/fire.jpg", "24.10.2020", "12:45", "Fire Dance", "Fr.,15.12.2020", "20:00", "120", "http://ronacher.at");
 var event2 = new Events("Ernst-Happel-Stadion", "Wien", "Meiereistrasse 7", "1020", "img/music.jpg", "24.10.2020", "12:45", "Guns 'n Monkeys", "Sat, 09.06.2020 ", "19:30", "95,50", "http://www.gunsandroses.com/");
