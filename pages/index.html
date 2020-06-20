@@ -27,9 +27,12 @@
 
 </head>
 
-<header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
-        <a class="navbar-brand" href="#">Navbar</a>
+
+<body>
+
+    <!--NavBar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+        <a class="navbar-brand" href="#">JohnOx Trips</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -40,7 +43,7 @@
               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Restaurants</a>
+              <a class="nav-link" href="#">Trip of the day</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -57,51 +60,58 @@
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
           </form>
         </div>
-      </nav>
-</header>
+      </nav><!--NavBar-->
 
 
-<body>
+      
+<!--Carousel Slide-->
 
     <div class="container-fluid">
 
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-            
+                
             <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="/img/miami.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Beautiful Places</h5>
-                        <p>Explore fantastic sights!</p>
+                    <div class="carousel-item active">
+                        <img src="/img/miami.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Beautiful Places</h5>
+                            <p>Explore fantastic sights!</p>
+                        </div>
                     </div>
-                </div>
 
-                <div class="carousel-item">
-                    <img src="/img/pizza.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Fine Dining</h5>
-                        <p>Enjoy mouthwatering dishes!</p>
+                    <div class="carousel-item">
+                        <img src="/img/pizza.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Fine Dining</h5>
+                            <p>Enjoy mouthwatering dishes!</p>
+                        </div>
                     </div>
-                </div>
 
-                <div class="carousel-item">
-                    <img src="/img/concert.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Great Events</h5>
-                        <p>Experience live concerts,immersive musicals or other great events!</p>
-                </div>
-            </div>
+                    <div class="carousel-item">
+                        <img src="/img/concert.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Great Events</h5>
+                            <p>Experience live concerts,immersive musicals or other great events!</p>
+                        </div>
+                    </div>
 
+            </div><!--carousel inner-->
 
-            <div class = container>
-                <div class="cardWrapper">
+        </div><!--carousel-->
 
-                    <!--content generated from TypeScript-->
+    </div><!--container-->
+
+<!--Start of content-->
+    
         
-                </div><!--card Wrapper-->
-            </div>
+    <div class="card-deck cardWrapper">
 
-    </div><!--overall Container Bootstrapped-->
+        <!--content generated from TypeScript-->
+
+    </div><!--card Wrapper-->
+        
+
+
 
         
 
@@ -111,7 +121,5 @@
 </body>
 
 
-<!--<div class="card-footer text-center">
-							<small class="text-muted">${this.createdOnDate} ${this.createdOnTime}</small>
-						</div>-->
+
 </html>
