@@ -1,22 +1,17 @@
 # CFLMS-Oxales-CodeReview-06
 
 Sixth Website Project
-
+# Travel-o-matic blog
 
 Project description:
 
 Note: You are now familiar with TypeScript and Bootstrap, as well as with the concepts of objects, classes and inheritance. It is time to put that knowledge to use.
-
 
 Organization of you code:
 
 Examine the Content section below and use it as a guide to create your index.html page, as well as your script.ts-file(s). 
 Submit script.ts, as well as script.js file(s) and all other project files.
 All images should be stored in an img folder, which is a subfolder of your main CR project folder.
-
-
-# Travel-o-matic blog
-
 
 You enjoy traveling to different places, visiting events and eating good food in restaurants. You want to create a TypeScript-based system that presents all of your experiences in a web-page.
 
