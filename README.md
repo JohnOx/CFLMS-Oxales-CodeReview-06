@@ -1,6 +1,6 @@
 # CFLMS-Oxales-CodeReview-06
 
-Sixth Websitr Project
+Sixth Website Project
 
 
 Project description:
